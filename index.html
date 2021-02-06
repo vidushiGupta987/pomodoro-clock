@@ -1,0 +1,50 @@
+<html>
+     <head>
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="containerPart" id="containerPart1">
+                <div id="timeBorder">
+                    <div id="time">00:00</div>
+                </div>
+            </div>
+            <div class="containerPart">
+                <h2 id="sessionText">Session 1</h2>
+                <hr/>
+                <div>
+                    <div class="timeSetContainer">
+                        <center>
+                            <p class="timeHeading">session time</p>
+                            <p class="time" id="sessionTime">20 min</p>
+                            <div>
+                                <button class="timeChangingButton" id="sessionTimeDecrease">-</button>
+                                <button class="timeChangingButton" id="sessionTimeIncrease">+</button>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="timeSetContainer">
+                        <center>
+                            <p class="timeHeading">break time</p>
+                            <p class="time" id="breakTime">5 min</p>
+                            <div>
+                                <button class="timeChangingButton" id="breakTimeDecrease">-</button>
+                                <button class="timeChangingButton" id="breakTimeIncrease">+</button>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <br/>
+                <hr/>
+                <div>
+                    <center>
+                        <button class="functionButton" id="startPauseButton">Start</button>
+                        <button class="functionButton" id="resetButton">Reset</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
